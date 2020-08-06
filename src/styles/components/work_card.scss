@@ -1,0 +1,20 @@
+.work-card {
+    .card-body {
+        display: flex;
+        flex-direction: column;
+
+        .card-title {
+            margin: 20px auto;
+            font-weight: 500;
+        }
+
+        .card-icon {
+            font-size: 128px;
+            text-align: center;
+            margin: auto;
+            color: $primary-color;
+            margin-bottom: 30px;
+        }
+
+    }
+}

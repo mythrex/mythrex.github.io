@@ -36,6 +36,10 @@ a:hover {
     transition: color 0.2s ease;
 }
 
+hr {
+    border-top: 1px solid $primary-color;
+}
+
 .heading {
     font-size: 60px;
     font-weight: 700;
@@ -89,4 +93,52 @@ a:hover {
         border: 3px solid $primary-color;
         color: black !important;
     }
+}
+
+.btn-demo {
+    border: 3px solid $primary-color;
+    border-radius: 50px;
+    font-weight: 500;
+    color: $primary-color !important;
+
+    &:hover {
+        background-color: $primary-color !important;
+        transition: background-color 0.2s ease;
+        border: 3px solid $primary-color;
+        color: black !important;
+    }
+}
+
+.btn-colab {
+    border: 3px solid $colab-color;
+    border-radius: 50px;
+    font-weight: 500;
+    color: $colab-color !important;
+
+    &:hover {
+        background-color: $colab-color !important;
+        transition: background-color 0.2s ease;
+        border: 3px solid $colab-color;
+        color: black !important;
+    }
+}
+
+.btn-github {
+    background-color: #bbb;
+    border: 3px solid $github-color;
+    border-radius: 50px;
+    font-weight: 500;
+    color: $github-color !important;
+
+    &:hover {
+        background-color: $github-color !important;
+        transition: background-color 0.2s ease;
+        border: 3px solid $github-color;
+        color: white !important;
+    }
+}
+
+.card {
+    background-color: $background-color-lighten-2;
+    border-radius: 15px;
 }

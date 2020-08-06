@@ -1,5 +1,5 @@
 #row-title {
-    height: 85vh;
+    height: 95vh;
     width: 100vw;
 }
 
@@ -40,6 +40,7 @@
         border: 3px solid white;
         padding: 10px;
         border-radius: 40px;
+        text-decoration: none;
 
         &:hover {
             border: 3px solid $primary-color;

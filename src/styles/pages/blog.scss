@@ -1,0 +1,16 @@
+.badge {
+    padding: 5px 20px;
+    font-size: 16px;
+    margin: 5px;
+    background-color: lighten($color: $accent-color-5, $amount: 20%);
+
+    &.deep-learning {
+        background-color: $accent-color-1;
+        color: black;
+    }
+
+    &.computer-vision {
+        background-color: $accent-color-2;
+        color: black;
+    }
+}
