@@ -1,6 +1,7 @@
 .blog_card {
     width: 100%;
     padding: 20px;
+    margin: 20px auto;
 
     &:hover {
         color: $accent-color-1 !important;
@@ -13,5 +14,12 @@
         span {
             margin-right: 20px;
         }
+    }
+}
+
+.filter {
+    .card {
+        margin: 20px auto;
+        background-color: $background-color-darken-1;
     }
 }

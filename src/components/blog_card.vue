@@ -11,9 +11,9 @@
       </p>
     </div>
     <div class="tags">
-      <b-badge v-for="(tag, index) in tags" :key="index" pill :class="tag"
-        >tag</b-badge
-      >
+      <b-badge v-for="(tag, index) in tags" :key="index" pill :class="tag">{{
+        tag
+      }}</b-badge>
     </div>
   </a>
 </template>
