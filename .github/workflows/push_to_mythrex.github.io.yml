@@ -34,6 +34,7 @@ jobs:
         uses: andstor/copycat-action@v3
         with:
           personal_token: ${{ secrets.API_TOKEN_GITHUB }}
-          src_path: /dist
+          src_path: /root
+
           dst_owner: mythrex
           dst_repo_name: mythrex.github.io
