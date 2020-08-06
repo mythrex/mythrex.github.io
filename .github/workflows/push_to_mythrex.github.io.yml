@@ -38,3 +38,4 @@ jobs:
           dst_path: /
           dst_owner: mythrex
           dst_repo_name: mythrex.github.io
+          clean: true
