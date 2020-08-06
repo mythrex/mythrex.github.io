@@ -20,7 +20,7 @@ jobs:
     - name: Install Vue
       run: npm install @vue/cli
     - name: Build
-      run: npm run build
+      run: npm run build --if-present
   
     - name: Pushes to another repository
       uses: cpina/github-action-push-to-another-repository@master
