@@ -6,6 +6,8 @@ body {
     background-color: $background-color;
     color: white;
     padding-top: 60px;
+    overflow-x: hidden;
+    width: 100vw;
 }
 
 p,
