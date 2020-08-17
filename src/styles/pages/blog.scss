@@ -4,13 +4,25 @@
     margin: 5px;
     background-color: lighten($color: $accent-color-5, $amount: 10%);
     color: black;
+    cursor: pointer;
+
+    &:hover {
+        background: lighten($color: $accent-color-5, $amount: 20%);
+    }
 
     &.deep-learning {
         background-color: $accent-color-1;
 
+        &:hover {
+            background-color: lighten($accent-color-1, 10%);
+        }
     }
 
     &.computer-vision {
         background-color: $accent-color-2;
+
+        &:hover {
+            background-color: lighten($accent-color-2, 10%);
+        }
     }
 }
