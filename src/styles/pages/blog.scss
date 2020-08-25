@@ -18,11 +18,27 @@
         }
     }
 
+    &.data-science {
+        background-color: $accent-color-1;
+
+        &:hover {
+            background-color: lighten($accent-color-1, 10%);
+        }
+    }
+
     &.computer-vision {
         background-color: $accent-color-2;
 
         &:hover {
             background-color: lighten($accent-color-2, 10%);
+        }
+    }
+
+    &.internship {
+        background-color: $accent-color-3;
+
+        &:hover {
+            background-color: lighten($accent-color-3, 10%);
         }
     }
 }

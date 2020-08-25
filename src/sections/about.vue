@@ -9,7 +9,7 @@
           <b-card>
             <b-row>
               <b-col sm="12" md="4">
-                <b-img src="/profile_pic.jpg" alt="Responsive image" rounded="circle"></b-img>
+                <b-img src="/profile_pic.png" alt="Responsive image" rounded="circle"></b-img>
               </b-col>
               <b-col sm="12" md="8">
                 <p>

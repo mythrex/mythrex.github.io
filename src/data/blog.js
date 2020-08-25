@@ -1,18 +1,16 @@
 export default [
   {
-    title: "Title",
-    text:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos cupiditate amet at mollitia maxime perspiciatis culpa praesentium adipisci, autem dolor recusandae ipsam vero dolorum ex commodi ullam earum quidem atque.",
-    date: "20/02/2020",
-    read: "3 min read",
-    tags: ["computer-vision", "lorem"],
+    title: "Dreaming over text!",
+    text: "Extending the idea of Deep Dream to textual data!",
+    date: "Aug 21, 2019",
+    read: "7 min read",
+    tags: ["nlp", "deep-learning"],
   },
   {
-    title: "Title",
-    text:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos cupiditate amet at mollitia maxime perspiciatis culpa praesentium adipisci, autem dolor recusandae ipsam vero dolorum ex commodi ullam earum quidem atque.",
-    date: "20/02/2020",
+    title: "Internship experience at Space Application Center(SAC), ISRO",
+    text: "How I got an internship in Indian Space Research Organisation.",
+    date: "Aug 21, 2019",
     read: "3 min read",
-    tags: ["computer-vision", "lorem", "bogus", "computer-vision"],
+    tags: ["internship", "data-science"],
   },
 ];
