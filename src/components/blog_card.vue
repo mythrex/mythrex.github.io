@@ -1,19 +1,19 @@
 <template>
-  <a href="#" class="blog_card card">
+  <a target="_vblank" :href="link" class="blog_card card">
     <div class="meta-data">
       <span>{{ date }}</span>
       <span>{{ read }}</span>
     </div>
     <div class="card-body">
       <h2>{{ title }}</h2>
-      <p>
-        {{ text }}
-      </p>
+      <p>{{ text }}</p>
     </div>
     <div class="tags">
-      <b-badge v-for="(tag, index) in tags" :key="index" pill :class="tag">{{
+      <b-badge v-for="(tag, index) in tags" :key="index" pill :class="tag">
+        {{
         tag
-      }}</b-badge>
+        }}
+      </b-badge>
     </div>
   </a>
 </template>
@@ -26,9 +26,10 @@ export default {
     date: String,
     read: String,
     tags: Array,
+    link: String
   },
   data() {
     return {};
-  },
+  }
 };
 </script>

@@ -5,30 +5,24 @@
       <b-row>
         <b-col sm="12" md="4" class="filter">
           <b-card title="Filters">
-            <b-card-text>
-              Click to remove.
-            </b-card-text>
+            <b-card-text>Click to remove.</b-card-text>
             <b-badge
               pill
               v-for="(tag, index) in filterArray"
               :key="index"
               :class="tag"
               @click="removeFromFilterArray"
-              >{{ tag }}</b-badge
-            >
+            >{{ tag }}</b-badge>
           </b-card>
           <b-card>
-            <b-card-text>
-              Click to filter
-            </b-card-text>
+            <b-card-text>Click to filter</b-card-text>
             <b-badge
               pill
               v-for="(tag, index) in tags"
               :key="index"
               :class="tag"
               @click="addToFilterArray"
-              >{{ tag }}</b-badge
-            >
+            >{{ tag }}</b-badge>
           </b-card>
         </b-col>
         <b-col sm="12" md="8">
@@ -43,6 +37,7 @@
             :title="article.title"
             :text="article.text"
             :tags="article.tags"
+            :link="article.link"
           />
         </b-col>
       </b-row>
@@ -60,14 +55,14 @@ export default {
     return {
       blogData,
       tags: [],
-      filterArray: [],
+      filterArray: []
     };
   },
   methods: {
     getTags() {
       let tags = [];
-      this.blogData.forEach((article) => {
-        article.tags.forEach((tag) => {
+      this.blogData.forEach(article => {
+        article.tags.forEach(tag => {
           if (!tags.includes(tag)) {
             tags.push(tag);
           }
@@ -91,7 +86,7 @@ export default {
         this.filterArray.splice(index, 1);
         this.tags.push(text);
       }
-    },
+    }
   },
   computed: {
     filterArticles() {
@@ -108,10 +103,10 @@ export default {
       }
       // console.log(res);
       return res;
-    },
+    }
   },
   mounted() {
     this.tags = this.getTags();
-  },
+  }
 };
 </script>
