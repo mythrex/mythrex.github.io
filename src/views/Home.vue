@@ -4,9 +4,9 @@
 
     <HomeSection />
 
-    <WorkSection />
-
     <AboutSection />
+
+    <WorkSection />
 
     <SkillsSection />
 
@@ -26,10 +26,13 @@ export default {
   components: {
     Navbar,
     HomeSection,
-    WorkSection,
     AboutSection,
+    WorkSection,
     SkillsSection,
     ProjectsSection,
+  },
+  mounted() {
+    this.$store.state.isBlog = false;
   },
 };
 </script>

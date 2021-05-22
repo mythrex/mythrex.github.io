@@ -18,6 +18,10 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import("../views/Blog.vue"),
   },
+  {
+    path: "/:pathMatch(.*)*",
+    component: Home,
+  },
 ];
 
 const router = new VueRouter({

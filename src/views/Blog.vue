@@ -12,7 +12,8 @@
               :key="index"
               :class="tag"
               @click="removeFromFilterArray"
-            >{{ tag }}</b-badge>
+              >{{ tag }}</b-badge
+            >
           </b-card>
           <b-card>
             <b-card-text>Click to filter</b-card-text>
@@ -22,7 +23,8 @@
               :key="index"
               :class="tag"
               @click="addToFilterArray"
-            >{{ tag }}</b-badge>
+              >{{ tag }}</b-badge
+            >
           </b-card>
         </b-col>
         <b-col sm="12" md="8">
@@ -55,14 +57,14 @@ export default {
     return {
       blogData,
       tags: [],
-      filterArray: []
+      filterArray: [],
     };
   },
   methods: {
     getTags() {
       let tags = [];
-      this.blogData.forEach(article => {
-        article.tags.forEach(tag => {
+      this.blogData.forEach((article) => {
+        article.tags.forEach((tag) => {
           if (!tags.includes(tag)) {
             tags.push(tag);
           }
@@ -86,7 +88,7 @@ export default {
         this.filterArray.splice(index, 1);
         this.tags.push(text);
       }
-    }
+    },
   },
   computed: {
     filterArticles() {
@@ -103,10 +105,15 @@ export default {
       }
       // console.log(res);
       return res;
-    }
+    },
   },
   mounted() {
     this.tags = this.getTags();
-  }
+  },
+  created: function() {
+    // Redirect outside the app using plain old javascript
+    // document.location.href = "/";
+    window.history.pushState("push", "Blog", "/");
+  },
 };
 </script>

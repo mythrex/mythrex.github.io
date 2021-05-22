@@ -1,5 +1,16 @@
 export default [
   {
+    title:
+      "Intuitive Explanation of Differentiable Architecture Search (DARTS)",
+    text: "Understanding how DARTS work!",
+    date: "May 21, 2021",
+    read: "15 min read",
+    tags: ["architechture", "computer-vision", "deep-learning"],
+    link:
+      "https://medium.com/p/intuitive-explanation-of-differentiable-architecture-search-darts-692bdadcc69c?\
+      source=email-396d46fdd644--writer.postDistributed&sk=1fa1479fd856aa45de27be35abcb017c",
+  },
+  {
     title: "Dreaming over text!",
     text: "Extending the idea of Deep Dream to textual data!",
     date: "Aug 21, 2019",

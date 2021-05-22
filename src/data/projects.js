@@ -1,5 +1,16 @@
 export default [
   {
+    title:
+      "Intuitive explaination of Differentiable Neural Architechture Search",
+    text:
+      "This blog work explains how DARTS work. \
+      I have tried to explain the math behind this paper, which I stuggled for months to understand.",
+    demoLink:
+      "https://medium.com/p/intuitive-explanation-of-differentiable-architecture-search-darts-692bdadcc69c?source=email-396d46fdd644--writer.postDistributed&sk=1fa1479fd856aa45de27be35abcb017c",
+    mediaType: "image",
+    mediaLink: "https://www.angioi.com/assets/images/dnas.png",
+  },
+  {
     title: "Dreaming over text!",
     text:
       "Extending the idea of Deep Dream to textual data! We took inspiration from deep dream, where input image is optimized to increase a hidden layer's activation.",
