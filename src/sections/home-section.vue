@@ -7,13 +7,13 @@
             <p class="sub-heading">Hi, I am</p>
             <p class="heading">{{ details.name }}</p>
             <p class="sub-heading" style="text-transform: uppercase;">
-              Reseach Engineer
-              <a href="https://www.originhealth.ai/" target="_vblank"
-                >@OriginHealth.ai</a
+              Data Scientist 2
+              <a href="https://1mg.com/" target="_vblank"
+                >@Tata 1mg.com</a
               >
             </p>
 
-            <a href="/resume.pdf" target="_vblank" class="btn btn-primary">
+            <a href="https://drive.google.com/file/d/1xKqSNMLHBviXKUi8r1lsWKynIOL0Zwcf/view?usp=sharing" target="_vblank" class="btn btn-primary">
               Download Resume
               <span class="fa fa-download"></span>
             </a>
